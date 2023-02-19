@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+  <title>Artemis 1.8.9 modification</title>
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <script src="https://kit.fontawesome.com/0ee8694c84.js" crossorigin="anonymous"></script>
+  <style style="display: flex;" contenteditable>
+    :root {
+      --accent: #d113ae;
+    }
+    body {
+      background-color: #250330;
+      font-family: system-ui;
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--accent);
+    }
+    .h2 {
+      color: white;
+      font-size: 24.5x;
+      text-shadow: whitesmoke 0 0 15px;
+    }
+
+    .box1  { /* right top box */
+      font-size: 20px;
+      color: var(--accent);
+      border: #d113ae 7.5px solid;
+      border-radius: 7px;
+      margin: auto;
+      transition: transform 0.2s;
+      text-align: left;
+      text-shadow: #84116e 0 0 10px;
+      max-width: 200px;
+      padding: 30px;
+      box-shadow:0 0 20px rgb(36, 36, 36);
+      position: relative;
+      top:-100px;
+      left:200px;
+      
+    }
+    
+      /* old box
+      transform: scale(1.2); 
+      box-shadow: 0 0 50px #84116e;
+      background-color:#d113ae;
+      color:white;
+      text-shadow: whitesmoke 0 0 15px;
+      */
+      
+      .box1:hover, .box2:hover  {  /* on hover */
+      transform: scale(1.2); 
+      box-shadow: 0 0 50px #84116e;
+      }
+
+      .box2  { /* left top box */
+      font-size: 20px;
+      color: var(--accent);
+      border: #d113ae 7.5px solid;
+      border-radius: 7px;
+      margin: auto;
+      transition: transform 0.2s;
+      text-shadow: #84116e 0 0 10px;
+      text-align: left;
+      font-size:17.5px;
+      max-width: 200px;
+      padding: 30px;
+      box-shadow:0 0 20px rgb(36, 36, 36);
+      position: relative;
+      top:-565px;
+      left:-200px;
+      }
+    
+    .iconstyle {
+    text-align: center;
+    font-size: 25px;
+    position:relative;
+    top: -10px;
+    }
+    
+     .heading { /* title */
+      margin-top: 20vh;
+      font-size: 3rem;
+      text-shadow: 0 0 50px #84116e;
+    }
+    .card-holder {
+      margin-top: 20vh;
+    }
+    .btn, .btn2 { /* vantage button */
+      text-decoration: none;
+      background-color: #0f36cf;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #0f36cf;
+      transition: transform 0.2s;
+    } 
+   .btn1pos { /* buy button */
+    position: fixed;
+    top:27.5px;
+    left:1510px;
+    }
+    .btn2pos { /* vantage tos */
+    position: fixed;
+    top:27.5px;
+    left:1300px;
+    }
+
+    .btn:hover, .btn2:hover {
+    transform:scale(1.2);
+    background:#1944f1;
+    }
+    
+    .imgdesign {
+    position:fixed;
+    top:7.5px;
+   transition: transform 0.2s;
+  }
+.imgdesign:hover {
+
+transform: scale(1.25);
+
+}
+
+  .navbar {
+background-color: #1a0222;
+position:fixed;
+top: 0px;
+width: 2048px;
+left: -7.5px;
+height: 0.75in;
+
+  }
+
+  </style>
+</head>
+
+<body>
+ <div class="navbar">
+<p> </p>
+
+ </div>
+  <div class="imgdesign">
+ <a href="https://e621.net">
+    <img src="artemis.png" style="width:0.65in; height:0.6in;"></img>
+  </a>
+  </div>
+  <h1 class="heading">Artemis Client</h1>
+  <div class="h2">
+<h2>The best multiserver client, providing you quality bypasses since 2020.</h2>
+  <div class ="h2">
+    <h2> Why buy Artemis?</h2>
+  </div>
+</div>
+  <div class="btn1pos">
+  <a href="https://e621.net" class="btn">Buy on Vantage</a>
+  </div>
+  <div class="card-holder">
+    <div class="box1">
+      <div class="iconstyle">
+        <i class="fa-solid fa-person-rays"></i>
+      </div>
+      <p>Artemis client has quality and configurable modules and bypasses for almost every anticheat you can think of.</p>
+    </div>
+</div>
+<div class="btn2pos">
+  <a href="https://vantageclients.com/tos" class="btn2">Terms of service</a>
+</div>
+<div class="card-holder">
+  <div class="box2">
+    <div class="iconstyle">
+    <i class="fa-solid fa-eye" ></i>
+    </div>
+    <p>With extremely customizable and modern visuals, Artemis client brings your cheating experience to a whole other level.</p>
+  </div>
+</div>
+</body>
